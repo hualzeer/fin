@@ -1,0 +1,118 @@
+.law{
+   height: 30px;
+   background-color: rgb(59, 59, 59);
+   p{
+      text-align: center;
+      color: white;
+   }
+}
+
+.contact-us{
+   color: white;
+   position: relative;
+   
+
+
+    .header{
+
+    }
+
+    .under-line{
+      height: .2rem;
+      width: 6.5rem;
+      background-color: rgb(168, 14, 14);
+      position: absolute;
+      top: 35%;
+      left: 15%;
+      transform: translate(-15%,-35%);
+    }
+
+    h3{
+       font-size: .9rem;
+
+       .icons{
+          font-size: 1.5rem;
+       }
+    }
+}
+.about-us{
+   background-color: rgb(42, 40, 40);
+   color: white; 
+   position: relative;
+   
+
+   .under-line{
+    height: .2rem;
+    width: 6.5rem;
+    background-color: rgb(168, 14, 14);
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    transform: translate(-15%,-40%);
+   }
+}
+
+.links{
+   color: white;
+   position: relative;
+   
+
+   .under-line{
+      height: .2rem;
+    width: 6.5rem;
+    background-color: rgb(168, 14, 14);
+    position: absolute;
+    top: 42%;
+    left: 15%;
+    transform: translate(-15%,-42%);
+
+   }
+
+   .links-item{
+      width: 200px;
+      height: 60px;
+      display: flex;
+   flex-direction: row;
+
+       .item{
+          
+          margin-right: 30px;
+          transition: .4s;
+          margin-top: 0px !important;
+
+          a{
+                text-decoration: none;
+                transition: .4s;
+
+                
+          i{
+             font-size: 3rem;
+             text-decoration: none;
+             color: white;
+             background-image: linear-gradient(to right bottom, rgba(#5a84b6,1 ), rgba(#ff84d1,1));
+             border-radius: 50%;
+             height: 47px;
+             margin-top: 10px;
+             transition: all 1s ease;
+             padding-bottom: 10px !important;
+
+             &:hover{
+               background-image: linear-gradient(to right bottom, rgba(#5a84b6,.5 ), rgba(#ff84d1,.5));
+               color: rgb(240, 240, 240);
+
+
+            }
+          }
+         }
+       }
+   }
+}
+
+
+
+
+.footer{
+   background-color: rgb(42, 40, 40);
+   border:1px solid white;
+
+}

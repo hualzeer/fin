@@ -1,0 +1,168 @@
+.the-trucks{
+margin-top: 100px;  
+
+
+   &-row{
+      background-color: #eee;
+      height: 100%;
+      border-radius: 20px;
+overflow: hidden; 
+      
+
+      .main-header{
+         text-align: center;
+         
+      }
+
+      .search-bar{
+         width: 70%;
+         height: 40px;
+         background-color: #fff;
+         border-radius: 100px;
+         overflow: hidden;
+         position: relative;
+
+         &-body{
+            height: 100%;
+            width: 100%;
+            
+            &-text{
+               height: 100%;
+               width: 100%;
+               outline: none;
+               border: none;
+
+            }
+
+            &-icon{
+               position: absolute;
+               width: 100px;
+               height: 100%;
+               background-image: linear-gradient(to right top,rgba(#45a29e,.7),rgba(#66fcf1,1));
+               top: 50%;
+               right: 0;
+               transform: translate(0,-50%);
+
+               .icon{
+                  font-size: 2rem;
+                  margin-left: 34%;
+                  margin-top: 4px;
+                  color: white;
+               }
+
+            }
+         }
+      }
+
+      .col-sm-3{
+         margin: 30px;
+      .card1{
+      
+         height: 540px;
+         width: 320px;
+         background-color: white;
+         border-radius: 25px;
+         overflow: hidden;
+         position: relative;
+
+         box-shadow: 0px 4px 10px 2px rgba($color: #000000, $alpha: .2);
+
+         &-image{
+            width: 100%;
+            background-color: white;
+            height: 45%;
+
+            img{
+               width: 100%;
+               height: 100%;
+            }
+         }
+
+         &-body{
+
+            &-cost{
+               height: 70px;
+               width: 70px;
+               background-color: #fff;
+               border-radius: 50%;
+               position: absolute;
+               top: 42%;
+               left: 10%;
+               transform: translate(-10%,-42%);
+               box-shadow: 0 10px 20px rgba($color: #000000, $alpha: .3);
+               user-select: none;
+
+               h3{
+                  font-size: 1.4rem;
+                  text-align: center;
+                  padding-top: 20px;
+               }
+            }
+            &-text{
+               .header{
+                  text-align: center;
+                  margin-top: 10px;
+               }
+
+               .btn1{
+                  text-transform: uppercase;
+                  text-decoration: none;
+                  padding: 10px 50px;
+                  display: inline-block;
+                  transition: .5s; 
+                  border-radius: 100px;
+                  margin-top: -100px !important;
+                  margin-left: 85px;
+                  box-shadow: 0 10px 20px rgba($color: #000000, $alpha: .2);
+                  position: relative;
+                  background-image: linear-gradient(to right bottom, rgba(#5a84b6,1 ), rgba(#ff84d1,1));
+                  
+                  &:hover{
+                     transform: translateY(-6px);
+
+                     &::after{
+                        transform: scaleX(1.8) scaleY(1.5);
+                        opacity: 0;
+                     }
+                  }
+
+                  &:active{
+                     transform: translateY(3px);
+                     box-shadow: 0 10px 20px rgba($color: #000000, $alpha: .4);
+
+                  }
+
+                  &::after{
+                     content: "";
+                     display: inline-block;
+                     height: 100%;
+                     width: 100%;
+                     border-radius: 100px;
+                     position: absolute;
+                     top: 0;
+                     left: 0;
+                     z-index: -1;
+                     transition: all .5s;
+
+                    
+                  }
+               }
+
+               .btn1-white{
+                  background-image: linear-gradient(to right bottom, rgba(#5a84b6,1 ), rgba(#ff84d1,1));
+                  color: white;
+
+                  &::after{
+                     background-image: linear-gradient(to right bottom, rgba(#5a84b6,1 ), rgba(#ff84d1,1));
+
+                  }
+               }
+
+
+            }
+
+         }
+      }
+   }
+   }
+}
